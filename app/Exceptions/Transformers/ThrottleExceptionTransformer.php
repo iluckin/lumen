@@ -19,5 +19,4 @@ class ThrottleExceptionTransformer extends Transform
     {
         return fail($exception->getMessage(), 4290, null, [], 429);
     }
-
 }
